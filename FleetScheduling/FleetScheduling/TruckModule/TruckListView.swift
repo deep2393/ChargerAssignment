@@ -18,6 +18,9 @@ public struct TruckListView: View, AppScreen {
             TruckView(model: $0)
         }
         .listStyle(.plain)
+        .task {
+            await viewModel.fetchTrucks()
+        }
     }
 }
 

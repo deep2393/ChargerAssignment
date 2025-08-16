@@ -18,6 +18,9 @@ public struct ChargerListView: View, AppScreen {
             ChargerView(model: $0)
         }
         .listStyle(.plain)
+        .task {
+            await viewModel.fetchChargers()
+        }
     }
 }
 

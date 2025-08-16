@@ -30,6 +30,8 @@ public struct AssignmentListView: View, AppScreen {
                 .font(.headline)
             TimePickerView(selectedTime: $viewModel.availableHours)
                 .frame(height: 150)
+        }.task {
+            await viewModel.loadAssignments()
         }
     }
 }

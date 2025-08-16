@@ -6,12 +6,10 @@ final class TruckListViewModel: ObservableObject {
 
     init(dataSource: TruckDataSource = TruckDataSourceImpl()) {
         self.dataSource = dataSource
-        fetchTrucks()
     }
     
-    private func fetchTrucks() {
-        Task { @MainActor in
-            trucks =  await dataSource.fetchTrucks()
-        }
+    @MainActor
+    func fetchTrucks() async {
+        trucks =  await dataSource.fetchTrucks()
     }
 }

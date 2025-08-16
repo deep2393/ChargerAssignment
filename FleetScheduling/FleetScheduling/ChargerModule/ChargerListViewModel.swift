@@ -6,12 +6,10 @@ final class ChargerListViewModel: ObservableObject {
 
     init(dataSource: ChargerDataSource = ChargerDataSourceImpl()) {
         self.dataSource = dataSource
-        fetchChargers()
     }
-    
-    private func fetchChargers() {
-        Task { @MainActor in
-            chargers =  await dataSource.fetchChargers()
-        }
+
+    @MainActor
+    func fetchChargers() async {
+        chargers = await dataSource.fetchChargers()
     }
 }

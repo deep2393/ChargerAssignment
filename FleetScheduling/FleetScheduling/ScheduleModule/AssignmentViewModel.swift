@@ -22,17 +22,13 @@ final class AssignmentViewModel: ObservableObject {
         self.truckDataSource = truckDataSource
         self.chargerDataSource = chargerDataSource
         self.assignmentAlgorithm = assignmentAlgorithm
-        Task {
-            await loadAssignments()
-        }
     }
     
+    @MainActor
     func loadAssignments() async {
         let trucks =  await truckDataSource.fetchTrucks()
         let chargers = await chargerDataSource.fetchChargers()
-        Task { @MainActor in
-            assignmentResult = await self.assignmentAlgorithm.assign(trucks: trucks, chargers: chargers, availableHours: availableHours)
-        }
+        assignmentResult = await self.assignmentAlgorithm.assign(trucks: trucks, chargers: chargers, availableHours: availableHours)
     }
 }
 

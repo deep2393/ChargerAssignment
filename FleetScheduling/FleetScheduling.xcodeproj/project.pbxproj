@@ -11,9 +11,7 @@
 		153013BE2E4DB07B006FF943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153013BD2E4DB07B006FF943 /* ContentView.swift */; };
 		153013C02E4DB07D006FF943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153013BF2E4DB07D006FF943 /* Assets.xcassets */; };
 		153013C42E4DB07D006FF943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153013C32E4DB07D006FF943 /* Preview Assets.xcassets */; };
-		153013CE2E4DB07D006FF943 /* FleetSchedulingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153013CD2E4DB07D006FF943 /* FleetSchedulingTests.swift */; };
-		153013D82E4DB07D006FF943 /* FleetSchedulingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153013D72E4DB07D006FF943 /* FleetSchedulingUITests.swift */; };
-		153013DA2E4DB07D006FF943 /* FleetSchedulingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153013D92E4DB07D006FF943 /* FleetSchedulingUITestsLaunchTests.swift */; };
+		153013CE2E4DB07D006FF943 /* ChargerListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153013CD2E4DB07D006FF943 /* ChargerListViewModelTests.swift */; };
 		154EF9812E50426A00E0DCDF /* TruckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9802E50426400E0DCDF /* TruckListView.swift */; };
 		154EF9832E50427800E0DCDF /* ChargerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9822E50427300E0DCDF /* ChargerListView.swift */; };
 		154EF9862E5042BA00E0DCDF /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9852E5042B500E0DCDF /* AssignmentView.swift */; };
@@ -35,17 +33,12 @@
 		154EF9AD2E50656200E0DCDF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9AC2E50656000E0DCDF /* Models.swift */; };
 		154EF9AF2E50683600E0DCDF /* AssignmentAlgorithmImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9AE2E50683000E0DCDF /* AssignmentAlgorithmImpl.swift */; };
 		154EF9B12E50723700E0DCDF /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9B02E50723500E0DCDF /* TimePicker.swift */; };
+		154EF9B32E50776800E0DCDF /* TruckListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9B22E50776100E0DCDF /* TruckListViewModelTests.swift */; };
+		154EF9B92E507A8600E0DCDF /* AssignmentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9B82E507A8600E0DCDF /* AssignmentViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		153013CA2E4DB07D006FF943 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 153013B02E4DB07B006FF943 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 153013B72E4DB07B006FF943;
-			remoteInfo = FleetScheduling;
-		};
-		153013D42E4DB07D006FF943 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 153013B02E4DB07B006FF943 /* Project object */;
 			proxyType = 1;
@@ -62,8 +55,7 @@
 		153013C12E4DB07D006FF943 /* FleetScheduling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FleetScheduling.entitlements; sourceTree = "<group>"; };
 		153013C32E4DB07D006FF943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		153013C92E4DB07D006FF943 /* FleetSchedulingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetSchedulingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		153013CD2E4DB07D006FF943 /* FleetSchedulingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSchedulingTests.swift; sourceTree = "<group>"; };
-		153013D32E4DB07D006FF943 /* FleetSchedulingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetSchedulingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153013CD2E4DB07D006FF943 /* ChargerListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargerListViewModelTests.swift; sourceTree = "<group>"; };
 		153013D72E4DB07D006FF943 /* FleetSchedulingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSchedulingUITests.swift; sourceTree = "<group>"; };
 		153013D92E4DB07D006FF943 /* FleetSchedulingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetSchedulingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		154EF9802E50426400E0DCDF /* TruckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckListView.swift; sourceTree = "<group>"; };
@@ -86,6 +78,8 @@
 		154EF9AC2E50656000E0DCDF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		154EF9AE2E50683000E0DCDF /* AssignmentAlgorithmImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentAlgorithmImpl.swift; sourceTree = "<group>"; };
 		154EF9B02E50723500E0DCDF /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		154EF9B22E50776100E0DCDF /* TruckListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckListViewModelTests.swift; sourceTree = "<group>"; };
+		154EF9B82E507A8600E0DCDF /* AssignmentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,13 +91,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		153013C62E4DB07D006FF943 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		153013D02E4DB07D006FF943 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,6 @@
 			children = (
 				153013B82E4DB07B006FF943 /* FleetScheduling.app */,
 				153013C92E4DB07D006FF943 /* FleetSchedulingTests.xctest */,
-				153013D32E4DB07D006FF943 /* FleetSchedulingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +146,9 @@
 		153013CC2E4DB07D006FF943 /* FleetSchedulingTests */ = {
 			isa = PBXGroup;
 			children = (
-				153013CD2E4DB07D006FF943 /* FleetSchedulingTests.swift */,
+				154EF9B22E50776100E0DCDF /* TruckListViewModelTests.swift */,
+				154EF9B82E507A8600E0DCDF /* AssignmentViewModelTests.swift */,
+				153013CD2E4DB07D006FF943 /* ChargerListViewModelTests.swift */,
 			);
 			path = FleetSchedulingTests;
 			sourceTree = "<group>";
@@ -292,24 +280,6 @@
 			productReference = 153013C92E4DB07D006FF943 /* FleetSchedulingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		153013D22E4DB07D006FF943 /* FleetSchedulingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 153013E32E4DB07D006FF943 /* Build configuration list for PBXNativeTarget "FleetSchedulingUITests" */;
-			buildPhases = (
-				153013CF2E4DB07D006FF943 /* Sources */,
-				153013D02E4DB07D006FF943 /* Frameworks */,
-				153013D12E4DB07D006FF943 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				153013D52E4DB07D006FF943 /* PBXTargetDependency */,
-			);
-			name = FleetSchedulingUITests;
-			productName = FleetSchedulingUITests;
-			productReference = 153013D32E4DB07D006FF943 /* FleetSchedulingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,10 +294,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					153013C82E4DB07D006FF943 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 153013B72E4DB07B006FF943;
-					};
-					153013D22E4DB07D006FF943 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 153013B72E4DB07B006FF943;
 					};
@@ -348,7 +314,6 @@
 			targets = (
 				153013B72E4DB07B006FF943 /* FleetScheduling */,
 				153013C82E4DB07D006FF943 /* FleetSchedulingTests */,
-				153013D22E4DB07D006FF943 /* FleetSchedulingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,13 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				154EF9902E50439000E0DCDF /* truckData.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		153013D12E4DB07D006FF943 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,16 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153013CE2E4DB07D006FF943 /* FleetSchedulingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		153013CF2E4DB07D006FF943 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				153013D82E4DB07D006FF943 /* FleetSchedulingUITests.swift in Sources */,
-				153013DA2E4DB07D006FF943 /* FleetSchedulingUITestsLaunchTests.swift in Sources */,
+				154EF9B32E50776800E0DCDF /* TruckListViewModelTests.swift in Sources */,
+				154EF9B92E507A8600E0DCDF /* AssignmentViewModelTests.swift in Sources */,
+				153013CE2E4DB07D006FF943 /* ChargerListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +385,6 @@
 			isa = PBXTargetDependency;
 			target = 153013B72E4DB07B006FF943 /* FleetScheduling */;
 			targetProxy = 153013CA2E4DB07D006FF943 /* PBXContainerItemProxy */;
-		};
-		153013D52E4DB07D006FF943 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 153013B72E4DB07B006FF943 /* FleetScheduling */;
-			targetProxy = 153013D42E4DB07D006FF943 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -679,50 +625,6 @@
 			};
 			name = Release;
 		};
-		153013E42E4DB07D006FF943 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y4MB7B6Q62;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.FleetSchedulingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FleetScheduling;
-			};
-			name = Debug;
-		};
-		153013E52E4DB07D006FF943 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y4MB7B6Q62;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.FleetSchedulingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FleetScheduling;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,15 +651,6 @@
 			buildConfigurations = (
 				153013E12E4DB07D006FF943 /* Debug */,
 				153013E22E4DB07D006FF943 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		153013E32E4DB07D006FF943 /* Build configuration list for PBXNativeTarget "FleetSchedulingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				153013E42E4DB07D006FF943 /* Debug */,
-				153013E52E4DB07D006FF943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

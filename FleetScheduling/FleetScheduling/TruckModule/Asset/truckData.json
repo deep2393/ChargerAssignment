@@ -1,0 +1,58 @@
+[
+  {
+    "id": "3a6b2c90-b7e2-4d03-a0a3-0fbf8a26c0e2",
+    "name": "Truck 1",
+    "batteryLevel": 32.5,
+    "kwPerhour": 75.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "7e96dcd1-f5fc-489b-a90b-3b2a6d2f55a2",
+    "name": "Truck 2",
+    "batteryLevel": 44.0,
+    "kwPerhour": 65.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "5c3ff3b0-5d4e-4320-9b16-47349e5c9b45",
+    "name": "Truck 3",
+    "batteryLevel": 78.0,
+    "kwPerhour": 90.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "8d675a43-85b9-478e-8a0c-e43d46d7817c",
+    "name": "Truck 4",
+    "batteryLevel": 22.0,
+    "kwPerhour": 55.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "47a859f2-63e3-4d9d-bd6f-94b3559e7a12",
+    "name": "Truck 5",
+    "batteryLevel": 19.5,
+    "kwPerhour": 35.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "0994a87a-7e7b-4264-b0a0-446db2cdce46",
+    "name": "Truck 6",
+    "batteryLevel": 27.0,
+    "kwPerhour": 100.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "c30d529a-9620-4f38-b2bc-76db127b04b0",
+    "name": "Truck 7",
+    "batteryLevel": 53.0,
+    "kwPerhour": 45.0,
+    "maxCapacity": 100.0
+  },
+  {
+    "id": "4f0b3431-f06e-41ad-bb9c-d95ef5a808d2",
+    "name": "Truck 8",
+    "batteryLevel": 36.0,
+    "kwPerhour": 85.0,
+    "maxCapacity": 100.0
+  }
+]

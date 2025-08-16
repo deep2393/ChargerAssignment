@@ -1,0 +1,22 @@
+[
+  {
+    "id": "f6ab1234-91c9-4d3d-8c0a-b2e73d2a90ea",
+    "name": "Charger 1",
+    "maxKW": 25.0
+  },
+  {
+    "id": "9b7323ac-3ef5-41ec-90c3-8738ed58e923",
+    "name": "Charger 2",
+    "maxKW": 35.0
+  },
+  {
+    "id": "3e59c5d2-dbc4-4ce0-bec6-c9af7e0e4197",
+    "name": "Charger 3",
+    "maxKW": 45.0
+  },
+  {
+    "id": "7c4a92d1-ff60-4a53-8d0c-54e2f271e4a2",
+    "name": "Charger 4",
+    "maxKW": 80.0
+  }
+]

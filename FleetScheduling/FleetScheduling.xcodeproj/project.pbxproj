@@ -124,7 +124,6 @@
 			children = (
 				154EF9A02E505C7D00E0DCDF /* Helpers */,
 				154EF9952E50494E00E0DCDF /* AppContainer */,
-				154EF9942E50478300E0DCDF /* SegmentControl */,
 				154EF9842E50429800E0DCDF /* ScheduleModule */,
 				154EF97F2E50423000E0DCDF /* ChargerModule */,
 				154EF97E2E50421900E0DCDF /* TruckModule */,
@@ -214,13 +213,6 @@
 				154EF9922E5044E000E0DCDF /* chargerData.json */,
 			);
 			path = Asset;
-			sourceTree = "<group>";
-		};
-		154EF9942E50478300E0DCDF /* SegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SegmentControl;
 			sourceTree = "<group>";
 		};
 		154EF9952E50494E00E0DCDF /* AppContainer */ = {

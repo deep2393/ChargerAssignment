@@ -41,7 +41,7 @@ struct AssignmentView: View {
     let model: AssignmentModel
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Charger: \(model.charger.name) (\(DoubleFormatter.format(model.charger.maxKW))kW)")
+            Text("Charger: \(model.charger.name) (\(DoubleFormatter().format(model.charger.maxKW))kW)")
                 .font(.headline)
             ForEach(model.truckAssignments) { truckAssignment in
                 Text("----------------------")

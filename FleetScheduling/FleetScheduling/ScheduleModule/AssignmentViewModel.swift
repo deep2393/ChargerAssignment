@@ -5,7 +5,7 @@ final class AssignmentViewModel: ObservableObject {
     private let truckDataSource: TruckDataSource
     private let chargerDataSource: ChargerDataSource
     let assignmentAlgorithm: AssignmentAlgorithm
-    @Published var availableHours: Double = 0.0 {
+    @Published var availableHours: Double = 1.0 {
         didSet {
             Task {
                 await loadAssignments()

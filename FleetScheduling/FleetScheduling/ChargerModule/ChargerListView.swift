@@ -38,7 +38,7 @@ struct ChargerView: View {
             HStack(spacing: 8) {
                 Text("Max Power:")
                     .fontWeight(.semibold)
-                Text("\(DoubleFormatter.format(model.maxKW)) kW")
+                Text("\(DoubleFormatter().format(model.maxKW)) kW")
             }
         }
         .font(.subheadline)

@@ -6,8 +6,8 @@ final class TruckListViewModelTests: XCTestCase {
     func testFetchTrucksPopulatesTrucks() async {
         // Arrange
         let expectedTrucks = [
-            TruckModel(id: UUID(), name: "Truck A", batteryLevel: 50, kwPerhour: 120),
-            TruckModel(id: UUID(), name: "Truck B", batteryLevel: 30, kwPerhour: 150)
+            TruckModel(id: UUID(), name: "Truck A", batteryLevel: 50, batteryCapacity: 120),
+            TruckModel(id: UUID(), name: "Truck B", batteryLevel: 30, batteryCapacity: 150)
         ]
         let mockDataSource = MockTruckDataSource()
         mockDataSource.trucksToReturn = expectedTrucks

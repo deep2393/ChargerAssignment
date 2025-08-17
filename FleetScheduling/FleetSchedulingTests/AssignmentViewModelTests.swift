@@ -6,8 +6,8 @@ final class AssignmentViewModelTests: XCTestCase {
     func testLoadAssignmentsUpdatesAssignmentResult() async {
         // Arrange
         let trucks = [
-            TruckModel(id: UUID(), name: "Truck A", batteryLevel: 20, kwPerhour: 50),
-            TruckModel(id: UUID(), name: "Truck B", batteryLevel: 50, kwPerhour: 80)
+            TruckModel(id: UUID(), name: "Truck A", batteryLevel: 20, batteryCapacity: 50),
+            TruckModel(id: UUID(), name: "Truck B", batteryLevel: 50, batteryCapacity: 80)
         ]
         let chargers = [
             ChargerModel(id: UUID(), name: "Charger 1", maxKW: 100),

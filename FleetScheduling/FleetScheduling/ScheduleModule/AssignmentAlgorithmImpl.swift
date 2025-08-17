@@ -5,7 +5,7 @@ class AssignmentAlgorithmImpl: AssignmentAlgorithm {
         trucks: [TruckModel],
         chargers: [ChargerModel],
         availableHours: Double
-    ) -> AssignmentResult {
+    ) async -> AssignmentResult {
         
         let totalAvailableTime = availableHours * 3600 // hours → seconds
         let now = Date()
@@ -18,7 +18,7 @@ class AssignmentAlgorithmImpl: AssignmentAlgorithm {
             
             for i in 0 ..< chargerAssignments.count {
                 let charger = chargerAssignments[i].charger
-                let chargingRate = min(truck.kwPerhour, charger.maxKW)
+                let chargingRate = charger.maxKW
                 
                 guard chargingRate > 0 else { continue } // skip invalid chargers
                 

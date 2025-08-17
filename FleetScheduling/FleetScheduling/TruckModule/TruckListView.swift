@@ -38,13 +38,7 @@ struct TruckView: View {
             HStack(spacing: 8) {
                 Text("Battery:")
                     .fontWeight(.semibold)
-                Text("\(DoubleFormatter.format(model.batteryLevel))%")
-            }
-
-            HStack(spacing: 8) {
-                Text("Charge Rate:")
-                    .fontWeight(.semibold)
-                Text("\(DoubleFormatter.format(model.kwPerhour)) kW/h")
+                Text("\(DoubleFormatter().format(model.batteryLevel))%")
             }
         }
         .font(.subheadline)
